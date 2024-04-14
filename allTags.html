@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>tags</title>
+</head>
+<header>Using all the tags</header>
+<body style="background-color: black; color: white;">
+     <header></header>
+     <main>
+          <link href="alltags.css" rel="style sheet">
+          <style>
+               label, input, button, p{
+                    padding: 5px;
+                    margin: 6px;
+               }
+          </style>
+          <script></script>
+          <img src="tag.jpg" alt="tag images" width="500px" height="300px">
+          <p>p Paragraph tag</p>
+          <ul>
+               <li><p><b>link tag</b> is used to link the external doucment and define 
+               the relationship between current document and external resource.<br>
+               href= hyper reference
+               rel= relationship
+               </p>
+               <li><p><strong>style tag </strong> used to define style information for a documnet.</p> </li>
+               <li><p><strong><em>script tag </em> </strong> is used to define client side scripting </p> </li>
+               <li><p>In image tag src, alt, width and height are attributes.<br> attributes are the extra info placed inside the opening tags having name and value pairs.</p> </li>
+               <a href="www.Instagram.com" target="_parent">LogIn to Instagram</a>
+          <br> <br>
+          <ul>
+               <li>The target attribute specifies where to open the linked document. </li>
+               <li>_blank: Opens the linked document in a new window or tab. </li>
+               <li>_self: Opens the linked document in the same frame as it was clicked (this is default) </li>
+          </ul>
+          <p>Anchor tag is used to create hyper links and allow us to navigate from one page to another page or to another link to different resource on internet.</p>
+          <div>
+          <h1>h1 Header tag</h1>
+          <h2>h2 Header tag</h2>
+          <h3>h3 Header tag</h3>
+          <h4>h4 Header tag</h4>
+          <h5>h5 Header tag</h5>
+          <h6>h6 Header tag</h6>
+          <h2>Formatting tags</h2>
+          </div>
+          <p>  This is <b>bold tag </b>
+               <br>
+               This is <strong>Strong tag</strong> 
+               <br>
+               This is <i>italic tag</i>
+               <br>
+               This is <small>Small tag</small>
+               <br>
+               <em>Emphasize text</em>
+               <br>
+               This is subscript tag => H<sub>2</sub>O
+               <br>
+               This is subscript tag=> X<sup>2</sup>
+               <br>
+          </p>
+          <p>list</p>
+          <ul>
+               <li>unordered list</li>
+               <li>apple</li>
+               <li>very very sweet apple</li>
+          </ul>
+          <br>
+          <ol>
+               <li>ordered list</li>
+               <li>butterfly butterfly</li>
+               <li>where are u going</li>
+          </ol>
+          <br>
+          <ol type="a">
+               <li>ordered list with type</li>
+               <li>butterfly butterfly</li>
+               <li>where are u going</li>
+          </ol>
+          <br>
+          <div>
+          <table border="1">
+               <thead>
+                    <tr>
+                         <th>Heading 1</th>
+                         <th>Heading 2</th>
+                         <th>Heading 2</th>
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                         <td>Data 1</td>
+                         <td>Data 2</td>
+                         <td>Data 3</td>
+                    </tr>
+                    <!--column span-->
+                    <tr>
+                         <td>Data 1</td>
+                         <td>Data 2</td>
+                         <td>Data 3</td>
+                    </tr>
+                    <!--row span-->
+                    <tr>
+                         <td>Data 1</td>
+                         <td>Data 2</td>
+                         <td>Data 3</td>
+                    </tr>
+               </tbody>
+               <tfooter>
+                    <td colspan="3">table footer goes here</td>
+               </tfooter>
+          </table>
+     </div>
+     <div>
+          <form post="get" action="" enctype="">
+               <p>Using form attributes</p>
+               <p>using required and placeholder</p>
+               <label for="user name">Enter Name</label>
+               <br>
+               <input type="text" id="user name" name="user_name" placeholder="User Name" >
+               <br>
+               <p>using pattern</p>
+               <label for="password">Enter Password</label>
+               <br>
+               <input type="password" id="password" name="user_password"  placeholder="User Password" pattern="[A-Za-z]{3}">
+               <br>
+               <p>using readonly</p>
+               <label for="college name">Enter College Name</label>
+               <br>
+               <input id="college name" value= "AMC College" readonly>
+               <br>
+               <p>using disabled</p>
+               <label for="id">Student id</label>
+               <br>
+               <input value="BC171642" disabled>
+               <br>
+               <p>Using form attributes</p>
+               <br>
+               <label for="text-attribute">Text attribute</label>
+               <input type="text" id="text-attribute" >
+               <br>
+               <label for="radio-attribute">Radio attribute</label>
+               <p>Please select gender</p>
+               <input type="radio" name="gender" id="male" value="Male">
+               <label for="male">Male</label>
+               <input type="radio" name="gender" id="female" value="Male">
+               <label for="male">Female</label>
+               <br>
+               <label for="check box-attribute">Check-box attribute</label>
+               <br>
+               <input type="checkbox" id="" name="java">
+               <label for="languages">Java</label>
+               <br>
+               <input type="checkbox" id="" name="html">
+               <label for="languages">HTML</label>
+               <br>
+               <input type="checkbox" id="" name="css">
+               <label for="languages">css</label>
+               <br>
+               <input type="checkbox" id="" name="js">
+               <label for="languages">JavaScript</label>
+               <br>
+               <label for="number-attribute">Number attribute</label>
+               <input type="number" id="number-attribute" >
+               <br>
+               <label>URL attribute</label>
+               <label for="url name">Enter url</label>
+               <input type="url" name="" id="url name">
+               <br>
+               <label>File Attribute</label>
+               <label for="files">Select the file</label>
+               <input type="file" id="files" multiple>
+               <br>
+               <label for="day">Select the joining date</label>
+               <input type="date" >
+               <br>
+               <label>Color Attribute</label>
+               <input type="color">
+               <br>
+               <label>search attribute</label>
+               <input type="search">
+               <br>
+               <label>telephone attribute</label>
+               <input type="tel">
+               <br>
+               <label>Range attribute</label>
+               <input type="range" min="10" max="100" step="5">
+               <br>
+               <button type="submit">Submit</button>
+          </form>
+     </div>
+</main>
+<footer style="text-align: center;">2024 My Website</footer>
+</body>
+</html>
