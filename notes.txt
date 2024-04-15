@@ -1,0 +1,11 @@
+
+to link local repository to git repository -
+	git remote add origin https://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@github.com/varshithamk/Learning.git
+
+
+to modify the added repository - 
+	git remote set-url origin https://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@github.com/varshithamk/Learning.git
+
+
+to push - 
+    git push --set-upstream origin main
